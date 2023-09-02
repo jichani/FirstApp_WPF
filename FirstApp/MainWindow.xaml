@@ -6,8 +6,12 @@
         xmlns:local="clr-namespace:FirstApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
         <!--F7누르면 바로 비하인드 코드로 넘어간다.-->
         <Label x:Name="lbl" Content="안녕하세요."></Label>
-    </Grid>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="652,178,0,0" VerticalAlignment="Top"/>
+        <Button Content="클릭" />
+        <Button>클릭</Button>
+        <Label>레이블</Label>
+    </StackPanel>
 </Window>
